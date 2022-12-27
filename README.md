@@ -1,6 +1,6 @@
 # TAPNTOUR Challange
 
-The challenge is building UI to show Tour Detail & Guides
+The challenge is building a simple UI to show Tour Detail & Guides
 
 ## Current Stack 
 
@@ -82,7 +82,6 @@ $ git clone repo_challenge
 $ npm install 
 $ npm run dev 
 $ npm run build --> deploy the app
-
 
 ```
 
