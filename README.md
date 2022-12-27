@@ -79,6 +79,17 @@ $ curl -X POST https://tapntour-wk-db.glyfo.workers.dev/api/tours/detail/:id
 
 ```
 $ git clone repo_challenge 
+$ npm install 
+$ npm run dev 
+$ npm run build --> deploy the app
 
 
 ```
+
+### Challenges 
+
+### 1-  Show the all tours in a List using TourView file 
+
+### 2-  Show the all guides in a List using GuideView file 
+
+### 3-  Show the tour detail in a new components file 
