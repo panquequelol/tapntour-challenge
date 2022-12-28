@@ -6,11 +6,11 @@ Please if you have any question send a email to info@glyfo.com.
 ## Objetive 
 
 Please clone this repository and finish the 3 challenges. Using the endpoint database to fetch the data. 
-
-### 1-  Show the all tours in a List Component  using TourView.vue file.     ( ETC 6 hrs ) 
-### 2-  Show the all guides in a List Component using GuideView.vue file.    ( ETC 6 hrs )
-### 3-  Show the tour detail in a List Component using  TourDetail.vue file. ( ETC 6 hrs )
-
+```console
+1-  Show the all tours in a List Component  using TourView.vue file.     ( ETC 6 hrs ) 
+2-  Show the all guides in a List Component using GuideView.vue file.    ( ETC 6 hrs )
+3-  Show the tour detail in a List Component using  TourDetail.vue file. ( ETC 6 hrs )
+```
 ## Our Stack
 
 ```console
