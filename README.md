@@ -1,11 +1,11 @@
-# Intership TAPNTOUR Challenge
+# Winter Internship TAPNTOUR Challenge Program
 
-This is a Intership TAPNTOUR Challenge , please follow the below intructions to complete the challenge.  
+This is a Intership TAPNTOUR Challenge Program, please follow the below intructions to complete the challenge.  
 Please if you have any question send a email to info@glyfo.com. 
 
 ## Objetive 
 
-Please clone the repository and finish the 3 challenges. Using the endpoint database to fetch the data. 
+Please clone this repository and finish the 3 challenges. Using the endpoint database to fetch the data. 
 
 1-  Show the all tours in a List Component  using TourView.vue file. 
 2-  Show the all guides in a List Component using GuideView.vue file. 
