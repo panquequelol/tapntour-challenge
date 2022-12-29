@@ -1,5 +1,5 @@
 <template>
-    <article @click="goToDetail()" class="flex items-start space-x-6 p-6">
+    <article class="flex items-start space-x-6 p-6">
       <img :src="item?.avatar" alt="" class=" object-cover h-48 w-28 flex-none rounded-full bg-slate-100" />
       <div class="min-w-0 relative flex-auto">
         <h2 class="font-semibold text-slate-900 truncate pr-20">{{ item?.guidename }}</h2>
@@ -25,9 +25,10 @@
     },
     props : ['item'],
     methods: {
-    goToDetail() {
-      this.$router.push('/TourDetail')
-    }
+    // ! not making the profile clickable yet, there were no instructions on it 
+    // goToDetail() {
+    //   this.$router.push('/TourDetail')
+    // }
   }
 }   
   </script>     
