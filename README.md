@@ -1,4 +1,5 @@
 # Candidate Information
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e619b0c5-9df2-4add-bad4-1ffec12c425b/deploy-status)](https://app.netlify.com/sites/cerulean-kitten-74a719/deploys)
 
 Name: René Cáceres
 
