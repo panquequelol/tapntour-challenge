@@ -1,3 +1,7 @@
+# Candidate Information
+Name: René Cáceres
+Email: rene@outlook.my
+
 # Winter Internship TAPNTOUR Challenge Program
 
 This is a Intership TAPNTOUR Challenge Program, please follow the below intructions to complete the challenge.  
