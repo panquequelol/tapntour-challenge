@@ -8,8 +8,7 @@
     <ListView>
       <p v-if="loading">Loading tours...</p>
       <p v-if="error">{{ error.message }}</p>
-      <TourItem v-if="tours" v-for="(item, index) in tours" :key="index" :item="item.data" />
-      <p>{{ tours[0]?.name }}</p>
+      <TourItem v-if="tours" v-for="(item, index) in tours" :key="index" :item="item" />
     </ListView>
   </div>
 </template>
@@ -29,6 +28,7 @@ export default defineComponent({
   components: {
     NavView,
     NavItem,
+    TourItem,
     ListView,
     // ListItem
   },
