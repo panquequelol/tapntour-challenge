@@ -4,7 +4,7 @@ const guide_endpoint = "https://tapntour-wk-db.glyfo.workers.dev/api/guides";
 
 export const useGuideStore = defineStore({
   id: "guide",
-  store: () => ({
+  state: () => ({
     guides: [],
     guide: null,
     loading: false,
@@ -17,7 +17,8 @@ export const useGuideStore = defineStore({
       try {
         const response = await fetch(guide_endpoint, { method: "POST" });
         const data = await response.json();
-        this.guides = [...this.tours, ...data];
+        this.guides = [...this.guides, ...data];
+        console.log(this.guides);
       } catch (error) {
         this.error = error;
       } finally {
