@@ -33,11 +33,6 @@ const routes = [
     name: "SignUpView",
     component: SignUpView,
   },
-  // {
-  //   path: "/TourDetail",
-  //   name: "TourDetail",
-  //   component: TourDetail,
-  // }
 ];
 
 const router = createRouter({
