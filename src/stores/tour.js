@@ -21,7 +21,6 @@ export const useTourStore = defineStore({
         const response = await fetch(tour_endpoint, { method: "POST" });
         const data = await response.json();
         this.tours = [...this.tours, ...data];
-        console.log("made it");
       } catch (error) {
         this.error = error;
       } finally {
