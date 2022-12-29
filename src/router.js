@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-import HomeLayout from "@/layouts/HomeLayout.vue";
+// import HomeLayout from "@/layouts/HomeLayout.vue"; // not implemented yet
 import TourView from "@/menu/tour/TourView.vue";
 import GuideView from "@/menu/guide/GuideView.vue";
 import SignUpView from "@/menu/profile/SignUpView.vue";
@@ -10,8 +10,8 @@ import TourDetail from "@/menu/tour/TourDetail.vue";
 const routes = [
   {
     path: "/",
-    name: "HomeLayout",
-    component: HomeLayout,
+    name: "Home",
+    component: TourView,
   },
   {
     path: "/tours",
